@@ -1,0 +1,58 @@
+{
+  "subjects": {
+    "cloud_computing": {
+      "name": "Cloud Computing",
+      "code": "CC101",
+      "icon": "☁️"
+    },
+    "big_data": {
+      "name": "Big Data",
+      "code": "BD201",
+      "icon": "📊"
+    },
+    "cryptography": {
+      "name": "Cryptography",
+      "code": "CY301",
+      "icon": "🔐"
+    },
+    "artificial_intelligence": {
+      "name": "Artificial Intelligence",
+      "code": "AI401",
+      "icon": "🤖"
+    },
+    "blockchain": {
+      "name": "Blockchain",
+      "code": "BC501",
+      "icon": "⛓️"
+    },
+    "machine_learning": {
+      "name": "Machine Learning",
+      "code": "ML601",
+      "icon": "🧠"
+    }
+  },
+  "responses": {
+    "greeting": "🎓 Welcome to Student Attendance Tracker!\n\nI'll help you track your attendance for all subjects.\nLet's get started! What's your name?",
+    "name_saved": "Nice to meet you, {name}! 😊\n\nReady to track your attendance?",
+    "subject_selected": "{icon} {subject} selected!\n\nWhat would you like to do?\n• Say 'present' to mark attendance\n• Say 'absent' if you missed class\n• Say 'percentage' to check attendance\n• Say 'record' to view history\n• Say 'change' to select another subject",
+    "mark_present": "✓ Marked PRESENT for {subject} on {date}",
+    "mark_absent": "✗ Marked ABSENT for {subject} on {date}",
+    "no_subject": "⚠️ Please select a subject first! Say a subject name or number (1-6).",
+    "no_records": "📊 No attendance records for {subject} yet!",
+    "thank_you": "You're welcome, {name}! Keep up the good attendance! 🎓",
+    "goodbye": "Goodbye, {name}! Keep attending classes! 📚"
+  },
+  "messages": {
+    "action_menu": "\n✨ What's next?\n• Mark another subject (say subject name)\n• Check 'percentage'\n• View 'record' (all subjects)\n• View 'all subjects' summary\n• Say 'menu' to see subjects again",
+    "help": "📖 Here's what I can do:\n\n• Select a subject by name or number (1-6)\n• Mark 'present' or 'absent'\n• Check 'percentage' for a subject\n• View 'all subjects' attendance\n• Show 'record' for ALL subjects with dates\n• Find 'lowest' attendance\n• Check if you're 'eligible'\n• Say 'menu' to see subjects\n\nTry saying something!"
+  },
+  "fallback_responses": [
+    "I'm not sure what you mean. Try:\n• Select a subject by name or number (1-6)\n• Say 'present' or 'absent' to mark attendance\n• Say 'percentage' to check attendance\n• Say 'all subjects' to see summary\n• Say 'record' to see complete history\n• Say 'menu' to see subjects again",
+    "Hmm, I didn't understand that. You can:\n📚 Select subject (1-6 or name)\n✓ Mark present/absent\n📊 Check percentage\n📋 View complete record\n📈 See all subjects\n❓ Say 'help' for all commands"
+  ],
+  "settings": {
+    "eligibility_criteria": 75,
+    "date_format": "%Y-%m-%d",
+    "minimum_attendance_warning": 70
+  }
+}
